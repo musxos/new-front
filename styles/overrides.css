@@ -1,0 +1,27 @@
+.body-box .example-btn,
+.example-btn {
+  right: 20px;
+  top: 1rem;
+  font-weight: 500;
+  padding: 0.625rem 2rem;
+  color: #f9fafb;
+  background: #0284c7;
+  border-radius: 250px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition: all 0.15s;
+}
+.body-box .example-btn:hover,
+.example-btn:hover {
+  background: #0369a1;
+}
+.body-box .example-btn:focus,
+.example-btn:focus {
+  outline: 2px solid #0284c7;
+}
+
+.button-round {
+  border-radius: 250px;
+}
