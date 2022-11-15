@@ -45,7 +45,7 @@ export const useMoralis = (chainId) => {
           params: { chain: chainId, format: "decimal", limit: "12" },
           headers: {
             accept: "application/json",
-            "X-API-Key": process.env.NEXT_PUBLIC_MORALIS_API_KEY,
+            "X-API-Key": "epklPSqwrWAsdinNNZ7A8DirMVDhpdb85l4DEaJbPzIxm2Wj2Ag1QGx6NqFMuO9P",
           },
         };
 
@@ -78,7 +78,7 @@ export const useMoralis = (chainId) => {
       params: { chain: chainId, format: "decimal", limit: "12", cursor },
       headers: {
         accept: "application/json",
-        "X-API-Key": process.env.NEXT_PUBLIC_MORALIS_API_KEY,
+        "X-API-Key": "epklPSqwrWAsdinNNZ7A8DirMVDhpdb85l4DEaJbPzIxm2Wj2Ag1QGx6NqFMuO9P",
       },
     };
     setState((p) => ({ ...p, isLoading: true }));
